@@ -8,19 +8,6 @@ PyPi redirect: https://pypi.org/project/distribution-probability-np/
 
 - **Binomial and Gaussian Distribution**: Calculate mean and standard deviation, visualize with bar charts, and compute probability density functions.
 
-# Create a Binomial distribution instance with a probability of success 0.5 and 20 trials
-binom = Binomial(prob=0.5, size=20)
-
-# Calculate mean and standard deviation
-mean = binom.calculate_mean()
-stdev = binom.calculate_stdev()
-
-# Replace stats with data if you have a dataset
-# binom.replace_stats_with_data(data)
-
-# Plotting the distribution
-binom.plot_bar_pdf()
-
 ## Installation
 
 You can install the package using pip.
